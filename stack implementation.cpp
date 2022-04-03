@@ -37,8 +37,7 @@ void peek(){
     if(root == NULL)
         cout << "stack underflow\n";
     else
-        cout << tail->num <<"\n";
-    
+        cout << tail->num <<"\n";   
 }
 
 void pop(){
