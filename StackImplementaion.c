@@ -73,10 +73,6 @@ int main(){
     if(empty())
         printf("\nstack empty");
     else
-        printf("\nstack not empty");
-    
-    
-    
-    
+        printf("\nstack not empty");  
    
 }
