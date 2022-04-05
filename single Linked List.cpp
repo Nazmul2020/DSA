@@ -36,6 +36,13 @@ void print(){
     }
 }
 
+void revPrint(node *head){ // recursive way reverse
+    if(head != NULL){
+        revPrint(head->next);
+        cout << head->num << " ";
+    }
+}
+
 void deleteNode(int num){
     node *currentNode = root; // copy root node
     node *previousNode = NULL;
